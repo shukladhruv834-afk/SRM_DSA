@@ -82,3 +82,47 @@ public class Game {
 
 
 .................................................................................
+import java.util.*;
+
+public class Game {
+    public static void main(String[] args) {
+        int arr[] = new int[5];  
+
+        for (int i = 0; i < 5; i++) {
+            arr[i] = i;  
+            System.out.println("array print " + arr[i]);
+        }
+    }
+}
+
+
+
+...................................................................................
+public class Game {
+    public static void main(String[] args) {
+        int arr[] = new int[5];
+        int sum = 0;   
+
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        System.out.println("Sum = " + sum);
+    }
+}
+...................................................................................
+public class Game {
+    public static void main(String[] args) {
+        int arr[] = {10, 20, 30, 40, 50};
+        int sum = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            sum = sum + arr[i];
+        }
+
+        double average = (double) sum / arr.length;
+
+        System.out.println("Average = " + average);
+    }
+}
+
